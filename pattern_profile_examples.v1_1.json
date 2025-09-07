@@ -1,0 +1,3461 @@
+{
+  "version": "1.1",
+  "profiles": [
+    {
+      "id": "CBSE_G8_Physics_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        8
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G8_Physics_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        8
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G8_Chemistry_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        8
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G8_Chemistry_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        8
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G8_Biology_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        8
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G8_Biology_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        8
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G8_Mathematics_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        8
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G8_Mathematics_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        8
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G10_Physics_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        10
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G10_Physics_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        10
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G10_Chemistry_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        10
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G10_Chemistry_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        10
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G10_Biology_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        10
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G10_Biology_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        10
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G10_Mathematics_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        10
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G10_Mathematics_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        10
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G12_Physics_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        12
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G12_Physics_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        12
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G12_Chemistry_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        12
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G12_Chemistry_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        12
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G12_Biology_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        12
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G12_Biology_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        12
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "CBSE_G12_Mathematics_MCQ_Mixed",
+      "board": "CBSE",
+      "grades": [
+        12
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "CBSE_G12_Mathematics_Diagram_Heavy",
+      "board": "CBSE",
+      "grades": [
+        12
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G8_Physics_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        8
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G8_Physics_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        8
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G8_Chemistry_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        8
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G8_Chemistry_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        8
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G8_Biology_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        8
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G8_Biology_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        8
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G8_Mathematics_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        8
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G8_Mathematics_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        8
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G10_Physics_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        10
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G10_Physics_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        10
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G10_Chemistry_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        10
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G10_Chemistry_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        10
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G10_Biology_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        10
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G10_Biology_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        10
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G10_Mathematics_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        10
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G10_Mathematics_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        10
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G12_Physics_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        12
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G12_Physics_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        12
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G12_Chemistry_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        12
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G12_Chemistry_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        12
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G12_Biology_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        12
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G12_Biology_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        12
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "ICSE_G12_Mathematics_MCQ_Mixed",
+      "board": "ICSE",
+      "grades": [
+        12
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "ICSE_G12_Mathematics_Diagram_Heavy",
+      "board": "ICSE",
+      "grades": [
+        12
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G8_Physics_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        8
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G8_Physics_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        8
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G8_Chemistry_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        8
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G8_Chemistry_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        8
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G8_Biology_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        8
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G8_Biology_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        8
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G8_Mathematics_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        8
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G8_Mathematics_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        8
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G10_Physics_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        10
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G10_Physics_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        10
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G10_Chemistry_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        10
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G10_Chemistry_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        10
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G10_Biology_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        10
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G10_Biology_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        10
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G10_Mathematics_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        10
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G10_Mathematics_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        10
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G12_Physics_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        12
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G12_Physics_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        12
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G12_Chemistry_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        12
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G12_Chemistry_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        12
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G12_Biology_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        12
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G12_Biology_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        12
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "IB_G12_Mathematics_MCQ_Mixed",
+      "board": "IB",
+      "grades": [
+        12
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "IB_G12_Mathematics_Diagram_Heavy",
+      "board": "IB",
+      "grades": [
+        12
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G8_Physics_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        8
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G8_Physics_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        8
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G8_Chemistry_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        8
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G8_Chemistry_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        8
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G8_Biology_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        8
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G8_Biology_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        8
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G8_Mathematics_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        8
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G8_Mathematics_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        8
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G10_Physics_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        10
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G10_Physics_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        10
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G10_Chemistry_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        10
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G10_Chemistry_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        10
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G10_Biology_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        10
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G10_Biology_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        10
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G10_Mathematics_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        10
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G10_Mathematics_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        10
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G12_Physics_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        12
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G12_Physics_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        12
+      ],
+      "subject": "Physics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G12_Chemistry_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        12
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G12_Chemistry_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        12
+      ],
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G12_Biology_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        12
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G12_Biology_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        12
+      ],
+      "subject": "Biology",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": true,
+        "min_diagram_questions": 2
+      }
+    },
+    {
+      "id": "SSC-HSC_G12_Mathematics_MCQ_Mixed",
+      "board": "SSC-HSC",
+      "grades": [
+        12
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 12,
+          "marks_each": 1
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 6,
+          "marks_each": 2
+        },
+        {
+          "type": "LongAnswer",
+          "count": 2,
+          "marks_each": 4
+        }
+      ],
+      "total_marks": 32,
+      "duration_min": 90,
+      "difficulty_target": {
+        "E": 0.3,
+        "M": 0.5,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 1
+      }
+    },
+    {
+      "id": "SSC-HSC_G12_Mathematics_Diagram_Heavy",
+      "board": "SSC-HSC",
+      "grades": [
+        12
+      ],
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "type": "MCQ",
+          "count": 10,
+          "marks_each": 1
+        },
+        {
+          "type": "DiagramBased",
+          "count": 3,
+          "marks_each": 3
+        },
+        {
+          "type": "ShortAnswer",
+          "count": 4,
+          "marks_each": 2
+        }
+      ],
+      "total_marks": 27,
+      "duration_min": 60,
+      "difficulty_target": {
+        "E": 0.4,
+        "M": 0.4,
+        "C": 0.2
+      },
+      "diagram_policy": {
+        "required": false,
+        "min_diagram_questions": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Code owners for reviews
+*       @your-org/platform-team
+schemas/* @your-org/data-team
+api/*     @your-org/platform-team
+config/*  @your-org/content-team

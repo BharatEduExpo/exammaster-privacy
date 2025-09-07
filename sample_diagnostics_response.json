@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "results": [
+    {
+      "check": "MCQ_Validation",
+      "status": "pass",
+      "details": "30/30 MCQs valid."
+    },
+    {
+      "check": "Unit_Check",
+      "status": "fail",
+      "details": "Q12 numeric answer missing SI unit."
+    }
+  ]
+}

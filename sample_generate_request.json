@@ -1,0 +1,28 @@
+{
+  "pattern_id": "ICSE_G8_Physics_MCQ_Diagram",
+  "board": "ICSE",
+  "grade": 8,
+  "subject": "Physics",
+  "chapter": "Light \u2013 Reflection & Refraction",
+  "blueprint_xlsx_url": "https://files.example/blueprint_template.xlsx",
+  "question_banks": [
+    {
+      "type": "mcq_csv_url",
+      "url": "https://files.example/question_bank_mcq_template.csv"
+    },
+    {
+      "type": "assertion_reason_csv_url",
+      "url": "https://files.example/question_bank_assertion_reason_template.csv"
+    },
+    {
+      "type": "subjective_csv_url",
+      "url": "https://files.example/question_bank_subjective_template.csv"
+    }
+  ],
+  "figures_catalog_url": "https://files.example/figures_catalog.csv",
+  "options": {
+    "enforce_diagram_policy": true,
+    "attach_figure_captions": true,
+    "units_required": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "version": "1.1",
+  "starters": [
+    {
+      "id": "mcq",
+      "template": "Create MCQs on {{topic}}",
+      "params": [
+        "topic"
+      ]
+    },
+    {
+      "id": "assertion_reason",
+      "template": "Create Assertion and Reason questions on {{topic}}",
+      "params": [
+        "topic"
+      ]
+    },
+    {
+      "id": "diagram_label",
+      "template": "Create a diagram labelling question on {{concept}}",
+      "params": [
+        "concept"
+      ]
+    },
+    {
+      "id": "match_following",
+      "template": "Create Match the Following on {{topic}}",
+      "params": [
+        "topic"
+      ]
+    },
+    {
+      "id": "true_false",
+      "template": "Create 10 True/False with explanations on {{topic}}",
+      "params": [
+        "topic"
+      ]
+    },
+    {
+      "id": "fill_blanks",
+      "template": "Create Fill in the Blanks with a word bank on {{topic}}",
+      "params": [
+        "topic"
+      ]
+    },
+    {
+      "id": "ordering",
+      "template": "Create Ordering/Sequencing questions for {{process}}",
+      "params": [
+        "process"
+      ]
+    },
+    {
+      "id": "mixed_quiz",
+      "template": "Create a mixed-format quiz for {{topic}} (MCQ + A&R + Short)",
+      "params": [
+        "topic"
+      ]
+    },
+    {
+      "id": "paper_blueprint",
+      "template": "Build a question paper with blueprint for {{subject}} {{grade}}",
+      "params": [
+        "subject",
+        "grade"
+      ]
+    }
+  ]
+}

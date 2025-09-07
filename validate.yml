@@ -1,0 +1,31 @@
+name: Validate API & JSON
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install linters
+        run: |
+          npm i -g ajv-cli @redocly/cli
+
+      - name: Validate JSON configs against schemas
+        run: |
+          ajv validate -s schemas/pattern_profile.schema.json -d config/pattern_profile_examples.v1_1.json
+          ajv validate -s schemas/exam_conversation_starters.schema.json -d config/exam_conversation_starters.v1_1.json
+          ajv validate -s schemas/exam_diagnostics.schema.json -d config/exam_diagnostics.v1_1.json
+
+      - name: Lint OpenAPI
+        run: |
+          redocly lint api/openapi_exam_master_v1_1.yaml

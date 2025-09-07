@@ -1,0 +1,18 @@
+# Node / Tools
+node_modules/
+.npm/
+
+# OS
+.DS_Store
+
+# Env
+.env
+*.local
+
+# Build
+dist/
+build/
+
+# Editors
+.vscode/
+.idea/

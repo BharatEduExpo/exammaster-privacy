@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExamMaster Patterns v1.1",
+  "type": "object",
+  "required": [
+    "version",
+    "profiles"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "1.1"
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "sections",
+          "total_marks",
+          "duration_min"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "board": {
+            "type": "string"
+          },
+          "grades": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "subject": {
+            "type": "string"
+          },
+          "sections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "type",
+                "count",
+                "marks_each"
+              ],
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "marks_each": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "total_marks": {
+            "type": "integer"
+          },
+          "duration_min": {
+            "type": "integer"
+          },
+          "difficulty_target": {
+            "type": "object",
+            "properties": {
+              "E": {
+                "type": "number"
+              },
+              "M": {
+                "type": "number"
+              },
+              "C": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          },
+          "diagram_policy": {
+            "type": "object",
+            "properties": {
+              "required": {
+                "type": "boolean"
+              },
+              "min_diagram_questions": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

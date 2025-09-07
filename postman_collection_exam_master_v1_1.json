@@ -1,0 +1,103 @@
+{
+  "info": {
+    "name": "ExamMaster GPT v1.1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Generate Paper",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{API_TOKEN}}"
+          }
+        ],
+        "url": {
+          "raw": "{{HOST}}/v1/generate",
+          "host": [
+            "{{HOST}}"
+          ],
+          "path": [
+            "v1",
+            "generate"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"pattern_id\": \"ICSE_G8_Physics_MCQ_Diagram\",\n  \"board\": \"ICSE\",\n  \"grade\": 8,\n  \"subject\": \"Physics\",\n  \"chapter\": \"Light \\u2013 Reflection & Refraction\",\n  \"blueprint_xlsx_url\": \"https://files.example/blueprint_template.xlsx\",\n  \"question_banks\": [\n    {\n      \"type\": \"mcq_csv_url\",\n      \"url\": \"https://files.example/question_bank_mcq_template.csv\"\n    },\n    {\n      \"type\": \"assertion_reason_csv_url\",\n      \"url\": \"https://files.example/question_bank_assertion_reason_template.csv\"\n    },\n    {\n      \"type\": \"subjective_csv_url\",\n      \"url\": \"https://files.example/question_bank_subjective_template.csv\"\n    }\n  ],\n  \"figures_catalog_url\": \"https://files.example/figures_catalog.csv\",\n  \"options\": {\n    \"enforce_diagram_policy\": true,\n    \"attach_figure_captions\": true,\n    \"units_required\": true\n  }\n}"
+        }
+      }
+    },
+    {
+      "name": "Run Diagnostics",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{API_TOKEN}}"
+          }
+        ],
+        "url": {
+          "raw": "{{HOST}}/v1/diagnostics/run",
+          "host": [
+            "{{HOST}}"
+          ],
+          "path": [
+            "v1",
+            "diagnostics",
+            "run"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"checks\": [\n    \"MCQ_Validation\",\n    \"Duplicate_Check\",\n    \"Unit_Check\",\n    \"Diagram_Enforcement\"\n  ],\n  \"document_url\": \"https://files.example/Draft_Paper_v0.pdf\",\n  \"similarity_threshold\": 0.9\n}"
+        }
+      }
+    },
+    {
+      "name": "Figures Lookup",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{API_TOKEN}}"
+          }
+        ],
+        "url": {
+          "raw": "{{HOST}}/v1/figures?subject=Physics&concept=Convex%20lens",
+          "host": [
+            "{{HOST}}"
+          ],
+          "path": [
+            "v1",
+            "figures"
+          ],
+          "query": [
+            {
+              "key": "subject",
+              "value": "Physics"
+            },
+            {
+              "key": "concept",
+              "value": "Convex lens"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "HOST",
+      "value": "https://api.exam-master.local"
+    },
+    {
+      "key": "API_TOKEN",
+      "value": "REPLACE_ME"
+    }
+  ]
+}

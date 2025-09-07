@@ -1,0 +1,1 @@
+Place static assets here (e.g., printable diagrams, icons).

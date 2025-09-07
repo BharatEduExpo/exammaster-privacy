@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "paper": {
+    "pdf_url": "https://files.example/ICSE_G8_Physics_Light_Paper.pdf",
+    "answer_key": [
+      {
+        "q": 1,
+        "ans": "B"
+      }
+    ],
+    "blueprint_summary": {
+      "E": 6,
+      "M": 5,
+      "C": 5,
+      "diagrams": 2
+    }
+  },
+  "diagnostics_report": [
+    {
+      "check": "MCQ_Validation",
+      "status": "pass",
+      "message": "All MCQs have exactly one key."
+    }
+  ]
+}

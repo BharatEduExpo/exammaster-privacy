@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "MCQ_Validation",
+    "Duplicate_Check",
+    "Unit_Check",
+    "Diagram_Enforcement"
+  ],
+  "document_url": "https://files.example/Draft_Paper_v0.pdf",
+  "similarity_threshold": 0.9
+}

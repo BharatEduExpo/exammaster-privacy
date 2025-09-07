@@ -1,0 +1,264 @@
+openapi: 3.1.0
+info:
+  title: ExamMaster GPT API
+  version: "1.1.0"
+  description: Minimal API to generate papers, run diagnostics, and fetch figure links.
+servers:
+  - url: https://api.exam-master.local
+    description: Example server (replace with your host)
+security:
+  - bearerAuth: []
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+paths:
+  /v1/generate:
+    post:
+      summary: Generate a paper/package from patterns, blueprint, and banks
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenerateRequest'
+      responses:
+        "200":
+          description: Paper generated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenerateResponse'
+        "400":
+          description: Validation error
+  /v1/diagnostics/run:
+    post:
+      summary: Run diagnostics on a draft paper or item bank
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DiagnosticsRequest'
+      responses:
+        "200":
+          description: Diagnostics results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DiagnosticsResponse'
+        "400":
+          description: Validation error
+  /v1/figures:
+    get:
+      summary: Fetch figure links for a subject+concept from catalog
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: query
+          name: subject
+          required: true
+          schema: { type: string }
+        - in: query
+          name: concept
+          required: true
+          schema: { type: string }
+        - in: query
+          name: limit
+          required: false
+          schema: { type: integer, default: 10, minimum: 1, maximum: 100 }
+      responses:
+        "200":
+          description: Figure list
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FiguresResponse'
+components:
+  schemas:
+    DifficultyMix:
+      type: object
+      properties:
+        E: { type: number, minimum: 0, maximum: 1 }
+        M: { type: number, minimum: 0, maximum: 1 }
+        C: { type: number, minimum: 0, maximum: 1 }
+      additionalProperties: false
+    DiagramPolicy:
+      type: object
+      properties:
+        required: { type: boolean, default: false }
+        min_diagram_questions: { type: integer, minimum: 0, default: 0 }
+      additionalProperties: false
+    Section:
+      type: object
+      required: [type, count, marks_each]
+      properties:
+        type: { type: string }
+        count: { type: integer, minimum: 0 }
+        marks_each: { type: number, minimum: 0 }
+      additionalProperties: false
+    PatternProfile:
+      type: object
+      required: [id, sections, total_marks, duration_min]
+      properties:
+        id: { type: string }
+        board: { type: string }
+        grades:
+          type: array
+          items: { type: integer }
+        subject: { type: string }
+        sections:
+          type: array
+          items: { $ref: '#/components/schemas/Section' }
+        total_marks: { type: integer }
+        duration_min: { type: integer }
+        difficulty_target: { $ref: '#/components/schemas/DifficultyMix' }
+        diagram_policy: { $ref: '#/components/schemas/DiagramPolicy' }
+      additionalProperties: false
+    PatternsFile:
+      type: object
+      required: [version, profiles]
+      properties:
+        version: { type: string, const: "1.1" }
+        profiles:
+          type: array
+          items: { $ref: '#/components/schemas/PatternProfile' }
+      additionalProperties: false
+    ConversationStarter:
+      type: object
+      required: [id, template]
+      properties:
+        id: { type: string }
+        template: { type: string }
+        params:
+          type: array
+          items: { type: string }
+      additionalProperties: false
+    StartersFile:
+      type: object
+      required: [version, starters]
+      properties:
+        version: { type: string, const: "1.1" }
+        starters:
+          type: array
+          items: { $ref: '#/components/schemas/ConversationStarter' }
+      additionalProperties: false
+    DiagnosticsFile:
+      type: object
+      required: [version, checks]
+      properties:
+        version: { type: string, const: "1.1" }
+        checks:
+          type: object
+          additionalProperties:
+            type: object
+            properties:
+              enabled: { type: boolean, default: true }
+              similarity_threshold: { type: number, minimum: 0, maximum: 1 }
+              min_diagram_questions: { type: integer, minimum: 0 }
+            additionalProperties: false
+      additionalProperties: false
+    GenerateRequest:
+      type: object
+      required: [pattern_id, board, grade, subject, chapter]
+      properties:
+        pattern_id: { type: string }
+        board: { type: string }
+        grade: { type: integer }
+        subject: { type: string }
+        chapter: { type: string }
+        blueprint_xlsx_url: { type: string, format: uri }
+        question_banks:
+          type: array
+          items:
+            type: object
+            required: [type, url]
+            properties:
+              type:
+                type: string
+                enum: [mcq_csv_url, assertion_reason_csv_url, subjective_csv_url]
+              url: { type: string, format: uri }
+        figures_catalog_url: { type: string, format: uri }
+        options:
+          type: object
+          properties:
+            enforce_diagram_policy: { type: boolean, default: true }
+            attach_figure_captions: { type: boolean, default: true }
+            units_required: { type: boolean, default: true }
+            difficulty_override: { $ref: '#/components/schemas/DifficultyMix' }
+          additionalProperties: false
+      additionalProperties: false
+    GenerateResponse:
+      type: object
+      required: [status, paper]
+      properties:
+        status: { type: string, enum: [ok] }
+        paper:
+          type: object
+          required: [pdf_url]
+          properties:
+            pdf_url: { type: string, format: uri }
+            answer_key:
+              type: array
+              items:
+                type: object
+                properties:
+                  q: { type: integer }
+                  ans: { type: string }
+            blueprint_summary:
+              type: object
+              properties:
+                E: { type: integer }
+                M: { type: integer }
+                C: { type: integer }
+                diagrams: { type: integer }
+        diagnostics_report:
+          type: array
+          items:
+            type: object
+            properties:
+              check: { type: string }
+              status: { type: string, enum: [pass, warn, fail] }
+              message: { type: string }
+    DiagnosticsRequest:
+      type: object
+      required: [checks, document_url]
+      properties:
+        checks:
+          type: array
+          items:
+            type: string
+            enum: [MCQ_Validation, Duplicate_Check, Difficulty_Balance, Diagram_Enforcement, Bias_Scan, Unit_Check]
+        document_url: { type: string, format: uri }
+        similarity_threshold: { type: number, minimum: 0, maximum: 1, default: 0.9 }
+        units_required: { type: boolean, default: true }
+      additionalProperties: false
+    DiagnosticsResponse:
+      type: object
+      properties:
+        status: { type: string, enum: [ok] }
+        results:
+          type: array
+          items:
+            type: object
+            properties:
+              check: { type: string }
+              status: { type: string, enum: [pass, warn, fail] }
+              details: { type: string }
+    FiguresResponse:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            type: object
+            properties:
+              title: { type: string }
+              url: { type: string, format: uri }
+              type: { type: string }
